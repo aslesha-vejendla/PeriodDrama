@@ -32,7 +32,7 @@ const de = {
   mark: "Eintragen",
   cancel: "Abbrechen",
   // Welcome Modal
-  "Welcome to Peri": "Willkommen bei Peri",
+  "Welcome to PeriodDrama": "Willkommen bei PeriodDrama",
   "Mark the days of your": "Markieren Sie die Tage Ihrer",
   "last period": "letzte Periode",
   Continue: "Fortsetzen",

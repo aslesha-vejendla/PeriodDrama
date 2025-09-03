@@ -35,7 +35,7 @@ const hi = {
   cancel: "रद्द करें",
 
   // Welcome Modal
-  "Welcome to Peri": "Peri में आपका स्वागत है",
+  "Welcome to PeriodDrama": "PeriodDrama में आपका स्वागत है",
   "Mark the days of your": "अपने के दिनों को चिह्नित करें",
   "last period": "अंतिम मासिक धर्म",
   Continue: "जारी रखें",

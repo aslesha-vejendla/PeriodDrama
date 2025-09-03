@@ -347,7 +347,7 @@ const DemoAlert = () => {
         <h1>{t("This is just a demo")}</h1>
         <p>
           <span>{t("You can download the application ")}</span>
-          <a href="https://github.com/IraSoro/peri/releases/latest">
+          <a href="https://github.com/IraSoro/perioddrama/releases/latest">
             {t("here")}
           </a>
         </p>

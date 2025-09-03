@@ -32,7 +32,7 @@ const gu = {
   mark: "ચિહ્નિત કરો",
   cancel: "રદ કરો",
   // Welcome Modal
-  "Welcome to Peri": "પેરીમાં આપનું સ્વાગત છે",
+  "Welcome to PeriodDrama": "પેરીમાં આપનું સ્વાગત છે",
   "Mark the days of your": "તમારા દિવસોને ચિહ્નિત કરો",
   "last period": "છેલ્લા માસિક ધારા ના",
   Continue: "આગળ વધો",

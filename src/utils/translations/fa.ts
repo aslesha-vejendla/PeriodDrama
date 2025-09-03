@@ -32,7 +32,7 @@ const fa = {
   mark: "علامت زدن",
   cancel: "کنسل",
   // Welcome Modal
-  "Welcome to Peri": "به پری خوش آمدید",
+  "Welcome to PeriodDrama": "به پری خوش آمدید",
   "Mark the days of your": "روز های آخرین پریودی را",
   "last period": "مشخص کنید",
   Continue: "ادامه",

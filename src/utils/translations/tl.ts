@@ -31,7 +31,7 @@ const tl = {
   mark: "Markahan",
   cancel: "Kanselahin",
   // Welcome Modal
-  "Welcome to Peri": "Maligayang pagdating sa Peri",
+  "Welcome to PeriodDrama": "Maligayang pagdating sa PeriodDrama",
   "Mark the days of your": "Markahan ang mga araw ng iyong",
   "last period": "huling regla",
   Continue: "Magpatuloy",

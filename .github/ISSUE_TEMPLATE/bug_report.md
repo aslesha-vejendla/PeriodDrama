@@ -10,7 +10,7 @@ assignees: ''
 **Describe the bug**
 A clear and concise description of what the bug is.
 
-**Peri App Version**
+**PeriodDrama App Version**
 [e.g. v2.4.2]
 
 **To Reproduce**

@@ -31,7 +31,7 @@ const vi = {
   mark: "đánh dấu",
   cancel: "huỷ bỏ",
   // Welcome Modal
-  "Welcome to Peri": "Chào mừng bạn đến với Peri",
+  "Welcome to PeriodDrama": "Chào mừng bạn đến với PeriodDrama",
   "Mark the days of your": "Bạn hãy đánh dấu những ngày",
   "last period": "kỳ kinh nguyệt gần nhất của bạn",
   Continue: "Tiếp tục",

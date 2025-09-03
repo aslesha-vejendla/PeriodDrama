@@ -31,7 +31,7 @@ const ru = {
   mark: "отметить",
   cancel: "отмена",
   // Welcome Modal
-  "Welcome to Peri": "Добро пожаловать в Peri",
+  "Welcome to PeriodDrama": "Добро пожаловать в PeriodDrama",
   "Mark the days of your": "Отметьте дни",
   "last period": "последних месячных",
   Continue: "Продолжить",

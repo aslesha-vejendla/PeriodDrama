@@ -33,7 +33,7 @@ const fr = {
   mark: "marquer",
   cancel: "annuler",
   // Welcome Modal
-  "Welcome to Peri": "Bienvenue sur Peri",
+  "Welcome to PeriodDrama": "Bienvenue sur PeriodDrama",
   "Mark the days of your": "Marquez les jours de vos",
   "last period": "dernières règles",
   Continue: "Continuer",

@@ -37,7 +37,7 @@ export function getDayOfCycle(cycles: Cycle[]) {
   return differenceInDays(currentDate, start) + 1;
 }
 
-// NOTE: Detailed description of ovulation calculation: https://github.com/IraSoro/peri/blob/master/info/CALCULATION.md#ovulation-day
+// NOTE: Detailed description of ovulation calculation: https://github.com/IraSoro/perioddrama/blob/master/info/CALCULATION.md#ovulation-day
 export function getOvulationStatus(
   cycles: Cycle[],
   maxDisplayedCycles: number,

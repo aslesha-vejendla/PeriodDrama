@@ -14,9 +14,8 @@ p.info-title-basic {
 }
 
 li.info-item-basic {
-  font-size: 16px;
-  margin-bottom: 20px;
-  color: var(--ion-color-text-basic);
+   font-size: 16px;
+   margin-bottom: 20px;   
 }
 
 li.info-item-basic::marker {
@@ -25,6 +24,7 @@ li.info-item-basic::marker {
 
 span.info-item-basic {
   color: var(--ion-color-less-dark-basic);
+  color: #4A0D38;
   font-weight: bold;
 }
 

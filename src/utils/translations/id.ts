@@ -34,7 +34,7 @@ const id = {
   cancel: "batal",
 
   // Welcome Modal
-  "Welcome to Peri": "Selamat datang di Peri",
+  "Welcome to PeriodDrama": "Selamat datang di PeriodDrama",
   "Mark the days of your": "Tandai hari-hari",
   "last period": "haid terakhir",
   Continue: "Lanjutkan",

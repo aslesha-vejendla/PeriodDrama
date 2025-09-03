@@ -31,7 +31,7 @@ const fi = {
   mark: "Merkitse",
   cancel: "Peruuta",
   // Welcome Modal
-  "Welcome to Peri": "Tervetuloa Peri-sovellukseen",
+  "Welcome to PeriodDrama": "Tervetuloa PeriodDrama-sovellukseen",
   "Mark the days of your": "Merkitse tähän",
   "last period": "edellisten kuukautistesi ajankohta",
   Continue: "Jatka",

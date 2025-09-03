@@ -32,7 +32,7 @@ const es = {
   mark: "Marcar",
   cancel: "Cancelar",
   // Welcome Modal
-  "Welcome to Peri": "Te damos la bienvenida a Peri",
+  "Welcome to PeriodDrama": "Te damos la bienvenida a PeriodDrama",
   "Mark the days of your": "Marca los días de tu",
   "last period": "última menstruación",
   Continue: "Continuar",

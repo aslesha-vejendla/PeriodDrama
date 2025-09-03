@@ -341,6 +341,14 @@ const Exporter = () => {
   );
 };
 
+import { logoLinkedin } from "ionicons/icons";    // ⬅️  new icon
+                                                // ⬇ remove the two no-longer-used helpers
+// import { openGitHubPage, openCurrentReleasePage } from "../data/AppVersion";
+
+const openLinkedInPage = () => {
+  window.open("https://www.linkedin.com/in/asleshavejendla/", "_blank");
+};
+
 const ChipInfo = () => {
   const { t } = useTranslation();
   const theme = useContext(ThemeContext).theme;
@@ -350,55 +358,40 @@ const ChipInfo = () => {
       <IonChip
         outline
         color={`text-${theme}`}
-        onClick={() => openGitHubPage()}
+        onClick={openLinkedInPage}
       >
         <IonIcon
-          icon={logoGithub}
+          icon={logoLinkedin}
           color={`text-${theme}`}
         />
-        <IonLabel>{t("We are on GitHub")}</IonLabel>
-      </IonChip>
-      <IonChip
-        outline
-        color={`text-${theme}`}
-        onClick={() => openCurrentReleasePage()}
-      >
-        <IonLabel>{t("What's new")}</IonLabel>
+        <IonLabel>{t("Follow me on LinkedIn")}</IonLabel>
       </IonChip>
     </IonRow>
   );
 };
-
 interface MenuProps {
   contentId: string;
 }
 
-export const Menu = (props: MenuProps) => {
+// eslint-disable-next-line react/prop-types
+export const Menu: React.FC<MenuProps> = ({ contentId }) => {
   const { t } = useTranslation();
   const theme = useContext(ThemeContext).theme;
   const [needUpdate, setNeedUpdate] = useState(false);
 
   useEffect(() => {
-    if (!configuration.features.useCustomVersionUpdate) {
-      return;
-    }
+    if (!configuration.features.useCustomVersionUpdate) return;
 
     isNewVersionAvailable()
-      .then((newVersionAvailable) => {
-        if (!newVersionAvailable) {
-          return;
-        }
-        setNeedUpdate(true);
-      })
-      .catch((err) => {
-        console.error(err);
-      });
+      .then((hasNew) => hasNew && setNeedUpdate(true))
+      .catch((err: unknown) => console.error(err));
   }, []);
 
   return (
     <IonMenu
-      contentId={props.contentId}
-      className={theme}
+      contentId={contentId}
+      type="overlay"
+      swipeGesture={false}
     >
       <IonList
         lines="none"
@@ -453,7 +446,7 @@ export const Menu = (props: MenuProps) => {
             style={{ fontSize: "13px" }}
             color="medium"
           >
-            Peri - The Period Tracker App
+            PeriodDrama - The Period Tracker App
           </IonLabel>
           <IonLabel
             style={{ fontSize: "13px" }}

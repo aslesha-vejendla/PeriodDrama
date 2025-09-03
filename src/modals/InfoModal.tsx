@@ -74,9 +74,12 @@ const InfoModal = (props: PropsInfoModal) => {
               </span>
             </li>
             <li className={`info-item-${theme}`}>
-              <span className={`info-item-${theme}`}>{pregnancyChance}</span>
+              <span className="chance-colour"> 
+                {pregnancyChance}
+              </span>
               <span> {t("chance of getting pregnant")}</span>
             </li>
+
           </ul>
           <p className={`info-title-${theme}`}>{t("Frequent symptoms")}</p>
           <ul>
