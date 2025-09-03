@@ -6,7 +6,7 @@
 
 ## 🔗 Live Demo
 
-[👉 Click to try the app](http://localhost:5173/perioddrama/)
+[👉 Click to try the app](http://localhost:5173/PeriodDrama/)
 
 ---
 
