@@ -1,13 +1,15 @@
 {
-  "name": "perioddrama",
+  "name": "PeriodDrama",
   "description": "The Period Tracker App",
   "version": "2.6.5",
   "type": "module",
   "author": {
-    "name": "Irina Sorokina",
-    "url": "https://github.com/IraSoro"
+    "name": "Aslesha Vejendla",
+    "url": "https://github.com/aslesha-vejendla"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
@@ -69,6 +71,7 @@
     "@typescript-eslint/eslint-plugin": "^8.17.0",
     "@vitest/coverage-v8": "^2.1.8",
     "gh-pages": "^5.0.0",
+    "vite-plugin-pages": "^0.33.1",
     "vite-plugin-pwa": "^0.21.1",
     "vitest": "^2.1.8"
   }

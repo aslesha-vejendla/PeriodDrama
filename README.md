@@ -6,7 +6,12 @@
 
 ## 🔗 Live Demo
 
-[👉 Click to try the app](http://localhost:5173/PeriodDrama/)
+<p align="center">
+  <a href="https://aslesha-vejendla.github.io/PeriodDrama/" target="_blank">
+    <img src="https://img.shields.io/badge/👉 Click%20to%20try%20the%20app-ffb6c1?style=for-the-badge" alt="Demo Link"/>
+  </a>
+</p>
+
 
 ---
 
