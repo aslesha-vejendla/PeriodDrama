@@ -5,13 +5,13 @@
     The Period Tracker App
   </p>
   <h1 align="center">
-    <a href="https://irasoro.github.io/perioddrama/" style="text-decoration: none;">
+    <a href="https://aslesha-vejendla.github.io/PeriodDrama/" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/Demo-eae7ff?logo=&logoColor=grey&style=for-the-badge" alt="Demo">
     </a>
     <a href="https://github.com/IraSoro/perioddrama/releases/latest" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/Download-4c3b9d?&style=for-the-badge" alt="Download">
     </a>
-    <a href="https://irasoro.github.io/perioddrama-website/" style="text-decoration: none;">
+    <a href="https://aslesha-vejendla.github.io/perioddrama-website/" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/Website-c0b6f2?&style=for-the-badge" alt="Website">
     </a>
   </h1>

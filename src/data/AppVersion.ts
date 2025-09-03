@@ -32,7 +32,7 @@ async function getLatestReleaseInfo(): Promise<LatestReleaseInfo> {
   } satisfies LatestReleaseInfo;
 
   const response = await fetch(
-    "https://api.github.com/repos/IraSoro/perioddrama/releases/latest",
+    "https://api.github.com/repos/aslesha-vejendla/PeriodDrama/releases/latest",
   );
 
   const githubReleaseInfo = (await response.json()) as GithubReleaseInfo;
